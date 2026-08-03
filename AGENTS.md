@@ -15,13 +15,22 @@ DaddyLive streams are secured using:
 
 ## 📊 Stream Specifications & Channel Metrics
 
-- **Total Active Channels**: **899+ Live TV & Sports Channels**
+- **Total Active Channels**: **899 Live TV & Sports Channels** (cataloged in [`channels.json`](./channels.json))
 - **Stream Protocol**: **HLS (HTTP Live Streaming / `.m3u8` Master Manifests)**
 - **Video Codec**: **H.264 / AVC (`avc1.640020`)**
 - **Audio Codec**: **AAC (`mp4a.40.2`)**
 - **Resolution & Frame Rate**: **720p HD (1280x720) @ 59.94 / 60 FPS**
 - **Average Bandwidth**: **~7,000 kbps (8,900 kbps peak)**
 - **MIME / Content-Type**: `application/vnd.apple.mpegurl` or `text/plain`
+
+---
+
+## 📁 Repository Files
+
+- **`channels.json`**: Complete JSON directory of all 899 DaddyLive channels including ID, name, category, stream URL templates, and API endpoints.
+- **`server.cjs`**: Primary Express / HTTP application server for Cloud Run / Node.js. Serves `/dlhd.m3u` playlist, `/api/resolve_stream/:id`, and `/live.php` reverse proxy.
+- **`daddylive_extractor.cjs`**: Standalone crawler script to generate `dlhd.m3u` and `channels.json`.
+- **`vlc_bridge.js`**: Standalone proxy bridge for local VLC testing (`http://localhost:8088/play.m3u8?id=51`).
 
 ---
 
@@ -43,14 +52,6 @@ DaddyLive streams are secured using:
 [ Reverse Proxy (/live.php) ] ───> Spoof Referer: https://hamis.romponalis.st/ & Origin headers,
                                    Inject Access-Control-Allow-Origin: * CORS headers
 ```
-
----
-
-## Key Endpoints & Commands
-
-- **`server.cjs`**: Primary Express / HTTP application entry point for Cloud Run / Node.js. Serves `/dlhd.m3u` playlist and `/live.php` reverse proxy.
-- **`daddylive_extractor.cjs`**: Standalone crawler script. Crawls all 899 DaddyLive channels and updates `dlhd.m3u`.
-- **`vlc_bridge.js`**: Standalone proxy bridge for local VLC testing (`http://localhost:8088/play.m3u8?id=51`).
 
 ---
 
@@ -84,7 +85,7 @@ async function playDaddyLiveChannel(channelId) {
     }
 }
 
-// Example: Play ABC USA (ID 51)
+// Example: Play ABC USA (ID 51) or Star Sports 1 IN (ID 267)
 playDaddyLiveChannel('51');
 </script>
 ```
