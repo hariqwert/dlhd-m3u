@@ -1,205 +1,205 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="51" tvg-name="ABC USA" group-title="General Entertainment",ABC USA
+#EXTINF:-1 tvg-id="51" tvg-name="ABC USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ABC_logo_2021.svg/500px-ABC_logo_2021.svg.png" group-title="General Entertainment",ABC USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=51
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/31d74cf81fd35d6c3f9ab6b41024c058/1785795231/premium51/index.m3u8
-#EXTINF:-1 tvg-id="302" tvg-name="A&amp;E USA" group-title="General Entertainment",A&amp;E USA
+#EXTINF:-1 tvg-id="302" tvg-name="A&amp;E USA" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",A&amp;E USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=302
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/4cf20145eb1bf9c29c8b6e5f2f27a0e6/1785795231/premium302/index.m3u8
-#EXTINF:-1 tvg-id="125" tvg-name="Astro SuperSport 3" group-title="Sports",Astro SuperSport 3
+#EXTINF:-1 tvg-id="125" tvg-name="Astro SuperSport 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Astro_SuperSport_logo.png/500px-Astro_SuperSport_logo.png" group-title="Sports",Astro SuperSport 3
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=125
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/8d3d55f1d54d72e019e299a484780416/1785795231/premium125/index.m3u8
-#EXTINF:-1 tvg-id="126" tvg-name="Astro SuperSport 4" group-title="Sports",Astro SuperSport 4
+#EXTINF:-1 tvg-id="126" tvg-name="Astro SuperSport 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Astro_SuperSport_logo.png/500px-Astro_SuperSport_logo.png" group-title="Sports",Astro SuperSport 4
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=126
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/d3f279707230181f23923df3eaa8a6dd/1785795231/premium126/index.m3u8
-#EXTINF:-1 tvg-id="430" tvg-name="Arena Sport 2 Serbia" group-title="Sports",Arena Sport 2 Serbia
+#EXTINF:-1 tvg-id="430" tvg-name="Arena Sport 2 Serbia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arena_Sport_Logo.png/500px-Arena_Sport_Logo.png" group-title="Sports",Arena Sport 2 Serbia
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=430
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/0dcc27ed34938403f448bffb32199467/1785795231/premium430/index.m3u8
-#EXTINF:-1 tvg-id="433" tvg-name="Arena Sport 2 Croatia" group-title="Sports",Arena Sport 2 Croatia
+#EXTINF:-1 tvg-id="433" tvg-name="Arena Sport 2 Croatia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arena_Sport_Logo.png/500px-Arena_Sport_Logo.png" group-title="Sports",Arena Sport 2 Croatia
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=433
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/2c8365eaeff3e810bde462cac0aa9adc/1785795231/premium433/index.m3u8
-#EXTINF:-1 tvg-id="370" tvg-name="Astro Cricket" group-title="Sports",Astro Cricket
+#EXTINF:-1 tvg-id="370" tvg-name="Astro Cricket" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Astro_Cricket_Logo.png/500px-Astro_Cricket_Logo.png" group-title="Sports",Astro Cricket
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=370
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/547d2716c8f315107ee87b50226ead59/1785795236/premium370/index.m3u8
-#EXTINF:-1 tvg-id="766" tvg-name="ABC NY USA" group-title="General Entertainment",ABC NY USA
+#EXTINF:-1 tvg-id="766" tvg-name="ABC NY USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ABC_logo_2021.svg/500px-ABC_logo_2021.svg.png" group-title="General Entertainment",ABC NY USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=766
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/deb707d7e6643e1657a69a728df38e54/1785795236/premium766/index.m3u8
-#EXTINF:-1 tvg-id="90" tvg-name="beIN Sports MENA English 2" group-title="Sports",beIN Sports MENA English 2
+#EXTINF:-1 tvg-id="90" tvg-name="beIN Sports MENA English 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN Sports MENA English 2
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=90
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/027a12674422d128478c72439b82c9b1/1785795237/premium90/index.m3u8
-#EXTINF:-1 tvg-id="116" tvg-name="beIN SPORTS 1 France" group-title="Sports",beIN SPORTS 1 France
+#EXTINF:-1 tvg-id="116" tvg-name="beIN SPORTS 1 France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 1 France
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=116
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/bc94e9ed30f445bfcc1db241cbae36eb/1785795238/premium116/index.m3u8
-#EXTINF:-1 tvg-id="117" tvg-name="beIN SPORTS 2 France" group-title="Sports",beIN SPORTS 2 France
+#EXTINF:-1 tvg-id="117" tvg-name="beIN SPORTS 2 France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 2 France
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=117
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/d41451a705a3a5669a2f5fbfea27ebeb/1785795238/premium117/index.m3u8
-#EXTINF:-1 tvg-id="118" tvg-name="beIN SPORTS 3 France" group-title="Sports",beIN SPORTS 3 France
+#EXTINF:-1 tvg-id="118" tvg-name="beIN SPORTS 3 France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 3 France
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=118
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/70769f15abdbbef19fc1b4718ab16c76/1785795238/premium118/index.m3u8
-#EXTINF:-1 tvg-id="62" tvg-name="beIN SPORTS 1 Turkey" group-title="Sports",beIN SPORTS 1 Turkey
+#EXTINF:-1 tvg-id="62" tvg-name="beIN SPORTS 1 Turkey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 1 Turkey
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=62
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/41c70a4bec426fae257b445f0df56e86/1785795238/premium62/index.m3u8
-#EXTINF:-1 tvg-id="63" tvg-name="beIN SPORTS 2 Turkey" group-title="Sports",beIN SPORTS 2 Turkey
+#EXTINF:-1 tvg-id="63" tvg-name="beIN SPORTS 2 Turkey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 2 Turkey
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=63
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/33717458482c30da953d79ab42ebc372/1785795238/premium63/index.m3u8
-#EXTINF:-1 tvg-id="64" tvg-name="beIN SPORTS 3 Turkey" group-title="Sports",beIN SPORTS 3 Turkey
+#EXTINF:-1 tvg-id="64" tvg-name="beIN SPORTS 3 Turkey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 3 Turkey
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=64
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/e0099d388f0f71a103a74b526f38e74a/1785795238/premium64/index.m3u8
-#EXTINF:-1 tvg-id="67" tvg-name="beIN SPORTS 4 Turkey" group-title="Sports",beIN SPORTS 4 Turkey
+#EXTINF:-1 tvg-id="67" tvg-name="beIN SPORTS 4 Turkey" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BeIN_Sports_logo.svg/500px-BeIN_Sports_logo.svg.png" group-title="Sports",beIN SPORTS 4 Turkey
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=67
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/689c6243c9ca7a63d3c35568abcbc506/1785795238/premium67/index.m3u8
-#EXTINF:-1 tvg-id="305" tvg-name="BBC America (BBCA)" group-title="News",BBC America (BBCA)
+#EXTINF:-1 tvg-id="305" tvg-name="BBC America (BBCA)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/BBC_America_logo_2021.svg/500px-BBC_America_logo_2021.svg.png" group-title="News",BBC America (BBCA)
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=305
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/9dccaff8c6ee70e9b0b57775887fe2ae/1785795238/premium305/index.m3u8
-#EXTINF:-1 tvg-id="306" tvg-name="BET USA" group-title="General Entertainment",BET USA
+#EXTINF:-1 tvg-id="306" tvg-name="BET USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/BET_Network_logo_2021.svg/500px-BET_Network_logo_2021.svg.png" group-title="General Entertainment",BET USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=306
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/1fe87897632fc9df6df49912c7e6dd5b/1785795238/premium306/index.m3u8
-#EXTINF:-1 tvg-id="309" tvg-name="CNBC USA" group-title="General Entertainment",CNBC USA
+#EXTINF:-1 tvg-id="309" tvg-name="CNBC USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/500px-CNBC_logo.svg.png" group-title="General Entertainment",CNBC USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=309
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/b1dd0999903613e7bc2c0c102fd61e38/1785795239/premium309/index.m3u8
-#EXTINF:-1 tvg-id="602" tvg-name="CTV Canada" group-title="General Entertainment",CTV Canada
+#EXTINF:-1 tvg-id="602" tvg-name="CTV Canada" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/CTV_logo_2018.svg/500px-CTV_logo_2018.svg.png" group-title="General Entertainment",CTV Canada
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=602
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/a61b21f2e295f55aa55bf04042e40009/1785795245/premium602/index.m3u8
-#EXTINF:-1 tvg-id="767" tvg-name="CBSNY USA" group-title="General Entertainment",CBSNY USA
+#EXTINF:-1 tvg-id="767" tvg-name="CBSNY USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/CBS_logo_2020.svg/500px-CBS_logo_2020.svg.png" group-title="General Entertainment",CBSNY USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=767
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/8246b0fea97c1e017f7f459f2f8cec8f/1785795245/premium767/index.m3u8
-#EXTINF:-1 tvg-id="936" tvg-name="Canal5 MX" group-title="General Entertainment",Canal5 MX
+#EXTINF:-1 tvg-id="936" tvg-name="Canal5 MX" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",Canal5 MX
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=936
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/5f8b7d7ff76673d5cfcdf6c7ee2c0ad1/1785795245/premium936/index.m3u8
-#EXTINF:-1 tvg-id="1042" tvg-name="Sport 1 CZ" group-title="Sports",Sport 1 CZ
+#EXTINF:-1 tvg-id="1042" tvg-name="Sport 1 CZ" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="Sports",Sport 1 CZ
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=1042
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/bf45d711b6a11ba9f99b6ff17b8a9a43/1785795245/premium1042/index.m3u8
-#EXTINF:-1 tvg-id="1052" tvg-name="JOJ Šport SK" group-title="General Entertainment",JOJ Šport SK
+#EXTINF:-1 tvg-id="1052" tvg-name="JOJ Šport SK" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",JOJ Šport SK
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=1052
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/993664fac39e2bbe55294923adc9fab3/1785795245/premium1052/index.m3u8
-#EXTINF:-1 tvg-id="446" tvg-name="DAZN 2 Spain" group-title="Sports",DAZN 2 Spain
+#EXTINF:-1 tvg-id="446" tvg-name="DAZN 2 Spain" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_Logo_2018.svg/500px-DAZN_Logo_2018.svg.png" group-title="Sports",DAZN 2 Spain
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=446
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/07910512f8be0e2db1f5d2396c29278a/1785795246/premium446/index.m3u8
-#EXTINF:-1 tvg-id="311" tvg-name="Discovery Life Channel" group-title="General Entertainment",Discovery Life Channel
+#EXTINF:-1 tvg-id="311" tvg-name="Discovery Life Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Discovery_Channel_logo.svg/500px-Discovery_Channel_logo.svg.png" group-title="General Entertainment",Discovery Life Channel
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=311
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/578e199610e7c816465f5231200b72d8/1785795247/premium311/index.m3u8
-#EXTINF:-1 tvg-id="314" tvg-name="Disney XD" group-title="Cartoons & Kids",Disney XD
+#EXTINF:-1 tvg-id="314" tvg-name="Disney XD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Disney_XD_2015.svg/500px-Disney_XD_2015.svg.png" group-title="Cartoons & Kids",Disney XD
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=314
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/a42f7f67103d2a50abaf5b0d4c0cf6ed/1785795247/premium314/index.m3u8
-#EXTINF:-1 tvg-id="81" tvg-name="ESPN Brasil" group-title="Sports",ESPN Brasil
+#EXTINF:-1 tvg-id="81" tvg-name="ESPN Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/500px-ESPN_wordmark.svg.png" group-title="Sports",ESPN Brasil
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=81
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/bbf7884092887a68d539ccc232017983/1785795248/premium81/index.m3u8
-#EXTINF:-1 tvg-id="758" tvg-name="Fox Sports 2 USA" group-title="Sports",Fox Sports 2 USA
+#EXTINF:-1 tvg-id="758" tvg-name="Fox Sports 2 USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fox_Sports_logo_2012.svg/500px-Fox_Sports_logo_2012.svg.png" group-title="Sports",Fox Sports 2 USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=758
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/5ef6f782e84b26715ecde1e13e64522a/1785795249/premium758/index.m3u8
-#EXTINF:-1 tvg-id="821" tvg-name="FOX Sports 503 AU" group-title="Sports",FOX Sports 503 AU
+#EXTINF:-1 tvg-id="821" tvg-name="FOX Sports 503 AU" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fox_Sports_logo_2012.svg/500px-Fox_Sports_logo_2012.svg.png" group-title="Sports",FOX Sports 503 AU
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=821
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/058071af010c8e64e1625630833beca2/1785795249/premium821/index.m3u8
-#EXTINF:-1 tvg-id="896" tvg-name="FanDuel Sports Network Midwest" group-title="Sports",FanDuel Sports Network Midwest
+#EXTINF:-1 tvg-id="896" tvg-name="FanDuel Sports Network Midwest" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/FanDuel_Sports_Network_logo.png/500px-FanDuel_Sports_Network_logo.png" group-title="Sports",FanDuel Sports Network Midwest
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=896
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/ea2b449d14e2bf03dc675bb114a4a150/1785795250/premium896/index.m3u8
-#EXTINF:-1 tvg-id="646" tvg-name="Racer TV USA" group-title="General Entertainment",Racer TV USA
+#EXTINF:-1 tvg-id="646" tvg-name="Racer TV USA" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",Racer TV USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=646
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/8c51bffc2faaa31d9c920d4691fdd92a/1785795252/premium646/index.m3u8
-#EXTINF:-1 tvg-id="791" tvg-name="MGM+ USA / Epix" group-title="General Entertainment",MGM+ USA / Epix
+#EXTINF:-1 tvg-id="791" tvg-name="MGM+ USA / Epix" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MGM%2B_logo.svg/500px-MGM%2B_logo.svg.png" group-title="General Entertainment",MGM+ USA / Epix
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=791
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/014d1e8ca9812c65435cbc03a8d72e07/1785795253/premium791/index.m3u8
-#EXTINF:-1 tvg-id="777" tvg-name="NBC Sports Philadelphia" group-title="Sports",NBC Sports Philadelphia
+#EXTINF:-1 tvg-id="777" tvg-name="NBC Sports Philadelphia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/NBC_Sports_logo_2023.svg/500px-NBC_Sports_logo_2023.svg.png" group-title="Sports",NBC Sports Philadelphia
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=777
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/aaf289d4ab1beb90e2c800afda7d4358/1785795254/premium777/index.m3u8
-#EXTINF:-1 tvg-id="745" tvg-name="Nat Geo Wild USA" group-title="General Entertainment",Nat Geo Wild USA
+#EXTINF:-1 tvg-id="745" tvg-name="Nat Geo Wild USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Nat_Geo_Wild_logo.svg/500px-Nat_Geo_Wild_logo.svg.png" group-title="General Entertainment",Nat Geo Wild USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=745
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/663e29af6c2e2be8523e7fc92d011d97/1785795254/premium745/index.m3u8
-#EXTINF:-1 tvg-id="293" tvg-name="Reelz Channel" group-title="General Entertainment",Reelz Channel
+#EXTINF:-1 tvg-id="293" tvg-name="Reelz Channel" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",Reelz Channel
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=293
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/774306015a8bb929a3d644b4cd04f906/1785795255/premium293/index.m3u8
-#EXTINF:-1 tvg-id="411" tvg-name="Sportsnet One" group-title="Sports",Sportsnet One
+#EXTINF:-1 tvg-id="411" tvg-name="Sportsnet One" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sportsnet_logo.svg/500px-Sportsnet_logo.svg.png" group-title="Sports",Sportsnet One
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=411
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/19cfcf330b656f36a8c1c527bb95264c/1785795259/premium411/index.m3u8
-#EXTINF:-1 tvg-id="409" tvg-name="Sportsnet 360" group-title="Sports",Sportsnet 360
+#EXTINF:-1 tvg-id="409" tvg-name="Sportsnet 360" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Sportsnet_logo.svg/500px-Sportsnet_logo.svg.png" group-title="Sports",Sportsnet 360
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=409
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/bcd3e07492cc3f8f3ad4b77aa887e8e8/1785795259/premium409/index.m3u8
-#EXTINF:-1 tvg-id="416" tvg-name="SuperSport Variety 1" group-title="Sports",SuperSport Variety 1
+#EXTINF:-1 tvg-id="416" tvg-name="SuperSport Variety 1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/SuperSport_logo_2020.svg/500px-SuperSport_logo_2020.svg.png" group-title="Sports",SuperSport Variety 1
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=416
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/dfafcb939980defb0babc800456fb858/1785795259/premium416/index.m3u8
-#EXTINF:-1 tvg-id="145" tvg-name="Sport 5 PLUS Israel" group-title="Sports",Sport 5 PLUS Israel
+#EXTINF:-1 tvg-id="145" tvg-name="Sport 5 PLUS Israel" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="Sports",Sport 5 PLUS Israel
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=145
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/be71eca75f48413f0b231feceb7d1a99/1785795262/premium145/index.m3u8
-#EXTINF:-1 tvg-id="146" tvg-name="Sport 5 Live Israel" group-title="Sports",Sport 5 Live Israel
+#EXTINF:-1 tvg-id="146" tvg-name="Sport 5 Live Israel" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="Sports",Sport 5 Live Israel
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=146
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/7c1123907f5e3f973b68774ee44e09d5/1785795262/premium146/index.m3u8
-#EXTINF:-1 tvg-id="147" tvg-name="Sport 5 Star Israel" group-title="Sports",Sport 5 Star Israel
+#EXTINF:-1 tvg-id="147" tvg-name="Sport 5 Star Israel" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="Sports",Sport 5 Star Israel
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=147
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/9b5509b5df64ddf0a57543f25b34bf67/1785795262/premium147/index.m3u8
-#EXTINF:-1 tvg-id="335" tvg-name="Starz" group-title="Movies & Cinema",Starz
+#EXTINF:-1 tvg-id="335" tvg-name="Starz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Starz_2023_logo.svg/500px-Starz_2023_logo.svg.png" group-title="Movies & Cinema",Starz
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=335
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/bd562352babdd5301b98f69dd2bab571/1785795262/premium335/index.m3u8
-#EXTINF:-1 tvg-id="793" tvg-name="Showtime Showcase USA" group-title="Movies & Cinema",Showtime Showcase USA
+#EXTINF:-1 tvg-id="793" tvg-name="Showtime Showcase USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/500px-Showtime.svg.png" group-title="Movies & Cinema",Showtime Showcase USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=793
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/dfec2aaf6f0b89474aedff86a9496044/1785795262/premium793/index.m3u8
-#EXTINF:-1 tvg-id="115" tvg-name="TSN5" group-title="General Entertainment",TSN5
+#EXTINF:-1 tvg-id="115" tvg-name="TSN5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/TSN_Logo.svg/500px-TSN_Logo.svg.png" group-title="General Entertainment",TSN5
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=115
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/f91707e8b93e4a9ad709324b07138870/1785795263/premium115/index.m3u8
-#EXTINF:-1 tvg-id="338" tvg-name="TNT USA" group-title="Sports",TNT USA
+#EXTINF:-1 tvg-id="338" tvg-name="TNT USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/TNT_Logo_2016.svg/500px-TNT_Logo_2016.svg.png" group-title="Sports",TNT USA
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=338
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/30e3b0b2e4e9a15ad4de9c154a5202b0/1785795264/premium338/index.m3u8
-#EXTINF:-1 tvg-id="705" tvg-name="TV4 Sport Live 3" group-title="Sports",TV4 Sport Live 3
+#EXTINF:-1 tvg-id="705" tvg-name="TV4 Sport Live 3" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="Sports",TV4 Sport Live 3
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=705
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/972354cad48aeec9277df2bc42798f9b/1785795265/premium705/index.m3u8
-#EXTINF:-1 tvg-id="272" tvg-name="V Sport Motor Sweden" group-title="Sports",V Sport Motor Sweden
+#EXTINF:-1 tvg-id="272" tvg-name="V Sport Motor Sweden" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="Sports",V Sport Motor Sweden
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=272
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/80922b9219888cd58d94c3945f4a08c1/1785795266/premium272/index.m3u8
-#EXTINF:-1 tvg-id="501" tvg-name="18+ (Player-01)" group-title="General Entertainment",18+ (Player-01)
+#EXTINF:-1 tvg-id="501" tvg-name="18+ (Player-01)" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",18+ (Player-01)
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=501
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/24c03cb5e3de7f7f45c18d56e2d315d3/1785795267/premium501/index.m3u8
-#EXTINF:-1 tvg-id="504" tvg-name="18+ (Player-04)" group-title="General Entertainment",18+ (Player-04)
+#EXTINF:-1 tvg-id="504" tvg-name="18+ (Player-04)" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",18+ (Player-04)
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=504
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/cfe57f46ee9cb6e9346ae54dfb270b45/1785795267/premium504/index.m3u8
-#EXTINF:-1 tvg-id="508" tvg-name="18+ (Player-08)" group-title="General Entertainment",18+ (Player-08)
+#EXTINF:-1 tvg-id="508" tvg-name="18+ (Player-08)" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/generic.png" group-title="General Entertainment",18+ (Player-08)
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=508
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 https://xameleon.phantemlis.top/three/secure/4bba0a3e57291052cb30be181806ae28/1785795267/premium508/index.m3u8
