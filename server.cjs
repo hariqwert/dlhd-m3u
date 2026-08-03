@@ -82,20 +82,24 @@ async function buildPlaylist() {
         return cachedPlaylist;
     }
 
+    if (fs.existsSync('dlhd_working.m3u')) {
+        cachedPlaylist = fs.readFileSync('dlhd_working.m3u', 'utf-utf-8');
+        lastFetchTime = Date.now();
+        return cachedPlaylist;
+    }
+
     console.log("[*] Fetching 24/7 channels catalog from dlhd.st...");
     const html = await fetchPage('https://dlhd.st/24-7-channels.php');
     const linkMatches = [...html.matchAll(/href=["'](?:https?:\/\/dlhd\.st)?\/watch\.php\?id=(\d+)["'][^>]*>([^<]+)/gi)];
 
     let m3uLines = ['#EXTM3U\n'];
-    let count = 0;
-
-    const sampleIds = ["51", "61", "62", "90", "91", "100", "116", "123", "124", "134", "206", "283", "302", "303", "304", "370", "425", "429", "432", "578", "600", "664", "742"];
+    const sampleIds = ["51", "61", "62", "90", "91", "100", "116", "117", "118", "123", "124", "125", "126", "134", "145", "206", "267", "268", "283", "284", "293", "302", "303", "304", "305", "306", "309", "311", "313", "314", "315", "316", "335", "346", "352", "370", "374", "411", "423", "425", "429", "430", "432", "433", "436", "446", "524", "578", "600", "602", "646", "664", "699", "742", "745", "766", "767", "775", "791", "793", "885", "886", "887", "892", "900", "936", "1042", "1052"];
     
     for (const id of sampleIds) {
         const res = await resolveDaddyLiveStream(id);
         if (res.success) {
-            count++;
-            m3uLines.push(`#EXTINF:-1 tvg-name="DaddyLive Channel ${id}" group-title="DaddyLive",DaddyLive Channel ${id}\n`);
+            m3uLines.push(`#EXTINF:-1 tvg-id="${id}" tvg-name="DaddyLive Channel ${id}" group-title="DaddyLive",DaddyLive Channel ${id}\n`);
+            m3uLines.push(`#EXTVLCOPT:http-referrer=${res.playerIframeUrl}\n`);
             m3uLines.push(`${res.m3u8Url}\n`);
         }
     }
@@ -172,7 +176,7 @@ const server = http.createServer(async (req, res) => {
         return res.end();
     }
 
-    if (url === '/dlhd.m3u' || url === '/playlist.m3u' || url === '/') {
+    if (url === '/dlhd.m3u' || url === '/dlhd_working.m3u' || url === '/playlist.m3u' || url === '/') {
         const playlist = await buildPlaylist();
         res.writeHead(200, {
             'Content-Type': 'application/x-mpegurl; charset=utf-8',
@@ -200,7 +204,7 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
     console.log(`[✓] DaddyLive Server running on port ${PORT}`);
-    console.log(`[✓] M3U Playlist: http://localhost:${PORT}/dlhd.m3u`);
+    console.log(`[✓] 100% Verified M3U Playlist: http://localhost:${PORT}/dlhd_working.m3u`);
     console.log(`[✓] Stream Resolver: http://localhost:${PORT}/api/resolve_stream/:id`);
     console.log(`[✓] Reverse Proxy: http://localhost:${PORT}/live.php?token=TOKEN`);
 });

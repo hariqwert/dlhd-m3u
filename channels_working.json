@@ -1,0 +1,410 @@
+[
+  {
+    "id": "51",
+    "name": "ABC USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/31d74cf81fd35d6c3f9ab6b41024c058/1785795231/premium51/index.m3u8"
+  },
+  {
+    "id": "302",
+    "name": "A&amp;E USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/4cf20145eb1bf9c29c8b6e5f2f27a0e6/1785795231/premium302/index.m3u8"
+  },
+  {
+    "id": "125",
+    "name": "Astro SuperSport 3",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/8d3d55f1d54d72e019e299a484780416/1785795231/premium125/index.m3u8"
+  },
+  {
+    "id": "126",
+    "name": "Astro SuperSport 4",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/d3f279707230181f23923df3eaa8a6dd/1785795231/premium126/index.m3u8"
+  },
+  {
+    "id": "430",
+    "name": "Arena Sport 2 Serbia",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/0dcc27ed34938403f448bffb32199467/1785795231/premium430/index.m3u8"
+  },
+  {
+    "id": "433",
+    "name": "Arena Sport 2 Croatia",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/2c8365eaeff3e810bde462cac0aa9adc/1785795231/premium433/index.m3u8"
+  },
+  {
+    "id": "370",
+    "name": "Astro Cricket",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/547d2716c8f315107ee87b50226ead59/1785795236/premium370/index.m3u8"
+  },
+  {
+    "id": "766",
+    "name": "ABC NY USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/deb707d7e6643e1657a69a728df38e54/1785795236/premium766/index.m3u8"
+  },
+  {
+    "id": "90",
+    "name": "beIN Sports MENA English 2",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/027a12674422d128478c72439b82c9b1/1785795237/premium90/index.m3u8"
+  },
+  {
+    "id": "116",
+    "name": "beIN SPORTS 1 France",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/bc94e9ed30f445bfcc1db241cbae36eb/1785795238/premium116/index.m3u8"
+  },
+  {
+    "id": "117",
+    "name": "beIN SPORTS 2 France",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/d41451a705a3a5669a2f5fbfea27ebeb/1785795238/premium117/index.m3u8"
+  },
+  {
+    "id": "118",
+    "name": "beIN SPORTS 3 France",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/70769f15abdbbef19fc1b4718ab16c76/1785795238/premium118/index.m3u8"
+  },
+  {
+    "id": "62",
+    "name": "beIN SPORTS 1 Turkey",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/41c70a4bec426fae257b445f0df56e86/1785795238/premium62/index.m3u8"
+  },
+  {
+    "id": "63",
+    "name": "beIN SPORTS 2 Turkey",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/33717458482c30da953d79ab42ebc372/1785795238/premium63/index.m3u8"
+  },
+  {
+    "id": "64",
+    "name": "beIN SPORTS 3 Turkey",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/e0099d388f0f71a103a74b526f38e74a/1785795238/premium64/index.m3u8"
+  },
+  {
+    "id": "67",
+    "name": "beIN SPORTS 4 Turkey",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/689c6243c9ca7a63d3c35568abcbc506/1785795238/premium67/index.m3u8"
+  },
+  {
+    "id": "305",
+    "name": "BBC America (BBCA)",
+    "category": "News",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/9dccaff8c6ee70e9b0b57775887fe2ae/1785795238/premium305/index.m3u8"
+  },
+  {
+    "id": "306",
+    "name": "BET USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/1fe87897632fc9df6df49912c7e6dd5b/1785795238/premium306/index.m3u8"
+  },
+  {
+    "id": "309",
+    "name": "CNBC USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/b1dd0999903613e7bc2c0c102fd61e38/1785795239/premium309/index.m3u8"
+  },
+  {
+    "id": "602",
+    "name": "CTV Canada",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/a61b21f2e295f55aa55bf04042e40009/1785795245/premium602/index.m3u8"
+  },
+  {
+    "id": "767",
+    "name": "CBSNY USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/8246b0fea97c1e017f7f459f2f8cec8f/1785795245/premium767/index.m3u8"
+  },
+  {
+    "id": "936",
+    "name": "Canal5 MX",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/5f8b7d7ff76673d5cfcdf6c7ee2c0ad1/1785795245/premium936/index.m3u8"
+  },
+  {
+    "id": "1042",
+    "name": "Sport 1 CZ",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/bf45d711b6a11ba9f99b6ff17b8a9a43/1785795245/premium1042/index.m3u8"
+  },
+  {
+    "id": "1052",
+    "name": "JOJ Šport SK",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/993664fac39e2bbe55294923adc9fab3/1785795245/premium1052/index.m3u8"
+  },
+  {
+    "id": "446",
+    "name": "DAZN 2 Spain",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/07910512f8be0e2db1f5d2396c29278a/1785795246/premium446/index.m3u8"
+  },
+  {
+    "id": "311",
+    "name": "Discovery Life Channel",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/578e199610e7c816465f5231200b72d8/1785795247/premium311/index.m3u8"
+  },
+  {
+    "id": "314",
+    "name": "Disney XD",
+    "category": "Cartoons & Kids",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/a42f7f67103d2a50abaf5b0d4c0cf6ed/1785795247/premium314/index.m3u8"
+  },
+  {
+    "id": "81",
+    "name": "ESPN Brasil",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/bbf7884092887a68d539ccc232017983/1785795248/premium81/index.m3u8"
+  },
+  {
+    "id": "758",
+    "name": "Fox Sports 2 USA",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/5ef6f782e84b26715ecde1e13e64522a/1785795249/premium758/index.m3u8"
+  },
+  {
+    "id": "821",
+    "name": "FOX Sports 503 AU",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/058071af010c8e64e1625630833beca2/1785795249/premium821/index.m3u8"
+  },
+  {
+    "id": "896",
+    "name": "FanDuel Sports Network Midwest",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/ea2b449d14e2bf03dc675bb114a4a150/1785795250/premium896/index.m3u8"
+  },
+  {
+    "id": "646",
+    "name": "Racer TV USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/8c51bffc2faaa31d9c920d4691fdd92a/1785795252/premium646/index.m3u8"
+  },
+  {
+    "id": "791",
+    "name": "MGM+ USA / Epix",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/014d1e8ca9812c65435cbc03a8d72e07/1785795253/premium791/index.m3u8"
+  },
+  {
+    "id": "777",
+    "name": "NBC Sports Philadelphia",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/aaf289d4ab1beb90e2c800afda7d4358/1785795254/premium777/index.m3u8"
+  },
+  {
+    "id": "745",
+    "name": "Nat Geo Wild USA",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/663e29af6c2e2be8523e7fc92d011d97/1785795254/premium745/index.m3u8"
+  },
+  {
+    "id": "293",
+    "name": "Reelz Channel",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/774306015a8bb929a3d644b4cd04f906/1785795255/premium293/index.m3u8"
+  },
+  {
+    "id": "411",
+    "name": "Sportsnet One",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/19cfcf330b656f36a8c1c527bb95264c/1785795259/premium411/index.m3u8"
+  },
+  {
+    "id": "409",
+    "name": "Sportsnet 360",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/bcd3e07492cc3f8f3ad4b77aa887e8e8/1785795259/premium409/index.m3u8"
+  },
+  {
+    "id": "416",
+    "name": "SuperSport Variety 1",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/dfafcb939980defb0babc800456fb858/1785795259/premium416/index.m3u8"
+  },
+  {
+    "id": "145",
+    "name": "Sport 5 PLUS Israel",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/be71eca75f48413f0b231feceb7d1a99/1785795262/premium145/index.m3u8"
+  },
+  {
+    "id": "146",
+    "name": "Sport 5 Live Israel",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/7c1123907f5e3f973b68774ee44e09d5/1785795262/premium146/index.m3u8"
+  },
+  {
+    "id": "147",
+    "name": "Sport 5 Star Israel",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/9b5509b5df64ddf0a57543f25b34bf67/1785795262/premium147/index.m3u8"
+  },
+  {
+    "id": "335",
+    "name": "Starz",
+    "category": "Movies & Cinema",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/bd562352babdd5301b98f69dd2bab571/1785795262/premium335/index.m3u8"
+  },
+  {
+    "id": "793",
+    "name": "Showtime Showcase USA",
+    "category": "Movies & Cinema",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/dfec2aaf6f0b89474aedff86a9496044/1785795262/premium793/index.m3u8"
+  },
+  {
+    "id": "115",
+    "name": "TSN5",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/f91707e8b93e4a9ad709324b07138870/1785795263/premium115/index.m3u8"
+  },
+  {
+    "id": "338",
+    "name": "TNT USA",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/30e3b0b2e4e9a15ad4de9c154a5202b0/1785795264/premium338/index.m3u8"
+  },
+  {
+    "id": "705",
+    "name": "TV4 Sport Live 3",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/972354cad48aeec9277df2bc42798f9b/1785795265/premium705/index.m3u8"
+  },
+  {
+    "id": "272",
+    "name": "V Sport Motor Sweden",
+    "category": "Sports",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/80922b9219888cd58d94c3945f4a08c1/1785795266/premium272/index.m3u8"
+  },
+  {
+    "id": "501",
+    "name": "18+ (Player-01)",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/24c03cb5e3de7f7f45c18d56e2d315d3/1785795267/premium501/index.m3u8"
+  },
+  {
+    "id": "504",
+    "name": "18+ (Player-04)",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/cfe57f46ee9cb6e9346ae54dfb270b45/1785795267/premium504/index.m3u8"
+  },
+  {
+    "id": "508",
+    "name": "18+ (Player-08)",
+    "category": "General Entertainment",
+    "working": true,
+    "statusCode": 200,
+    "m3u8Url": "https://xameleon.phantemlis.top/three/secure/4bba0a3e57291052cb30be181806ae28/1785795267/premium508/index.m3u8"
+  }
+]
