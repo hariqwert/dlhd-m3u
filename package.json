@@ -1,0 +1,12 @@
+{
+  "name": "dlhd-m3u",
+  "version": "1.0.0",
+  "description": "Automated DaddyLive (dlhd.st) M3U extraction and CORS proxy server",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "keywords": ["iptv", "m3u", "daddylive", "dlhd", "hls", "proxy"],
+  "author": "",
+  "license": "ISC"
+}
