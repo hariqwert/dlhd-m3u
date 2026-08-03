@@ -13,10 +13,22 @@ DaddyLive streams are secured using:
 
 ---
 
+## 📊 Stream Specifications & Channel Metrics
+
+- **Total Active Channels**: **899+ Live TV & Sports Channels**
+- **Stream Protocol**: **HLS (HTTP Live Streaming / `.m3u8` Master Manifests)**
+- **Video Codec**: **H.264 / AVC (`avc1.640020`)**
+- **Audio Codec**: **AAC (`mp4a.40.2`)**
+- **Resolution & Frame Rate**: **720p HD (1280x720) @ 59.94 / 60 FPS**
+- **Average Bandwidth**: **~7,000 kbps (8,900 kbps peak)**
+- **MIME / Content-Type**: `application/vnd.apple.mpegurl` or `text/plain`
+
+---
+
 ## Core Architecture & Workflow
 
 ```
-[ DaddyLive 24/7 Page ] ───> Fetch Channel List (899 channels) from dlhd.st/24-7-channels.php
+[ DaddyLive 24/7 Page ] ───> Fetch Channel Catalog (899 channels) from dlhd.st/24-7-channels.php
          │
          ▼
 [ Embed Page Fetch ] ───> Fetch Player iFrame: https://hamis.romponalis.st/premiumtv/daddy3.php?id={id}
