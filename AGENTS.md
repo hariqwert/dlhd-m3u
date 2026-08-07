@@ -1,95 +1,60 @@
-# AGENTS.md
+# AGENTS.md — DaddyLive (DLHD) M3U Stream Extraction Engine
 
-Guidance for AI coding agents (Claude Code, Antigravity, Cursor, Copilot, OpenCode) working in this repository.
+Guidance for AI coding agents (Claude Code, Antigravity, Cursor, Copilot, OpenCode) working in the `dlhd-m3u` repository.
+
+---
 
 ## Repository Overview
 
-This repository contains an automated M3U playlist extraction server and CORS/Referer reverse proxy relay system for **DaddyLive (`dlhd.st`)** live TV and sports channels.
+This repository hosts an automated extraction and 45-minute auto-refresh pipeline for **DaddyLive (`dlhd.st`)** live TV and sports channels.
 
-DaddyLive streams are secured using:
-1. Multi-tier iframe embedding (`https://dlhd.st/watch.php?id={id}` ➔ `https://dlhd.st/stream/stream-{id}.php` ➔ `https://hamis.romponalis.st/premiumtv/daddy3.php?id={id}`).
-2. Base64 `window.atob(...)` Clappr player source obfuscation.
-3. Strict HTTP `Referer` and `Origin` validation.
-
----
-
-## 📊 Stream Specifications & Channel Metrics
-
-- **Total Active Channels**: **899 Live TV & Sports Channels** (cataloged in [`channels.json`](./channels.json))
-- **Stream Protocol**: **HLS (HTTP Live Streaming / `.m3u8` Master Manifests)**
-- **Video Codec**: **H.264 / AVC (`avc1.640020`)**
-- **Audio Codec**: **AAC (`mp4a.40.2`)**
-- **Resolution & Frame Rate**: **720p HD (1280x720) @ 59.94 / 60 FPS**
-- **Average Bandwidth**: **~7,000 kbps (8,900 kbps peak)**
-- **MIME / Content-Type**: `application/vnd.apple.mpegurl` or `text/plain`
+- **Total Catalog:** 899 Channels (`channels.json`)
+- **Verified Active 24/7 Channels:** 51 Channels (`channels_working.json` & `dlhd_working.m3u`)
+- **Stream Format:** HLS (`.m3u8`), H.264 Video, AAC Audio @ 720p 60FPS
+- **Logos:** High-resolution external `tvg-logo` URLs included in `dlhd_working.m3u`
 
 ---
 
-## 📁 Repository Files
+## Player iFrame Security & Base64 Decoder
 
-- **`channels.json`**: Complete JSON directory of all 899 DaddyLive channels including ID, name, category, stream URL templates, and API endpoints.
-- **`server.cjs`**: Primary Express / HTTP application server for Cloud Run / Node.js. Serves `/dlhd.m3u` playlist, `/api/resolve_stream/:id`, and `/live.php` reverse proxy.
-- **`daddylive_extractor.cjs`**: Standalone crawler script to generate `dlhd.m3u` and `channels.json`.
-- **`vlc_bridge.js`**: Standalone proxy bridge for local VLC testing (`http://localhost:8088/play.m3u8?id=51`).
+DaddyLive obfuscates `.m3u8` master manifests inside player iFrames.
 
----
-
-## Core Architecture & Workflow
-
-```
-[ DaddyLive 24/7 Page ] ───> Fetch Channel Catalog (899 channels) from dlhd.st/24-7-channels.php
-         │
-         ▼
-[ Embed Page Fetch ] ───> Fetch Player iFrame: https://hamis.romponalis.st/premiumtv/daddy3.php?id={id}
-         │
-         ▼
-[ Base64 Decoder ] ───> Extract window.atob('...') string and decode direct .m3u8 URL
-         │
-         ▼
-[ M3U Generator ] ───> Write #EXTM3U playlist & serve /dlhd.m3u & /playlist.m3u
-         │
-         ▼
-[ Reverse Proxy (/live.php) ] ───> Spoof Referer: https://hamis.romponalis.st/ & Origin headers,
-                                   Inject Access-Control-Allow-Origin: * CORS headers
-```
+- **Stream iFrame URL:** `https://hamis.romponalis.st/premiumtv/daddy3.php?id={channelId}`
+- **Decoder Formula:**
+  ```javascript
+  const match = html.match(/source:\s*window\.atob\(["']([^"']+)["']\)/i);
+  const m3u8Url = Buffer.from(match[1], 'base64').toString('utf-8');
+  // Output CDN: https://xameleon.phantemlis.top/three/secure/.../index.m3u8
+  ```
 
 ---
 
-## How to Enable & Integrate on Any Website (Instructions for AI & Developers)
+## Server Endpoints (`server.cjs`)
 
-To play DaddyLive streams in any browser video player (Hls.js / Video.js / JW Player) without CORS or 403 Forbidden errors:
+- `GET /dlhd_working.m3u`: 51 verified active channels in standard `#EXTM3U` format with `tvg-logo` metadata.
+- `GET /dlhd.m3u`: Full channel catalog playlist.
+- `GET /api/resolve_stream/:id`: JSON endpoint returning fresh stream URL & reverse proxy token.
+- `GET /live.php?token=...`: Reverse proxy server bypassing CORS and HTTP 403 blocks.
 
-### 1. Website Frontend Player Integration Script
-```html
-<video id="videoPlayer" controls autoplay style="width:100%; max-width:900px;"></video>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+---
 
-<script>
-const PROXY_SERVER = "https://your-cloud-run-domain.a.run.app";
+## Website Player Integration (JavaScript)
 
+```javascript
 async function playDaddyLiveChannel(channelId) {
-    const video = document.getElementById("videoPlayer");
-    const hls = new Hls();
-
-    // Route playback through backend stream resolver & proxy
-    const res = await fetch(`${PROXY_SERVER}/api/resolve_stream/${channelId}`);
+    const res = await fetch(`https://your-server.com/api/resolve_stream/${channelId}`);
     const data = await res.json();
-
-    if (data.success && data.proxyUrl) {
-        const streamUrl = `${PROXY_SERVER}${data.proxyUrl}`;
-        hls.loadSource(streamUrl);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MANIFEST_PARSED, () => video.play());
-    } else {
-        console.error("Stream resolution failed");
+    
+    if (data.success) {
+        const streamUrl = data.proxyUrl || data.m3u8Url;
+        const video = document.getElementById('my-video-player');
+        
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(streamUrl);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, () => video.play());
+        }
     }
 }
-
-// Example: Play ABC USA (ID 51) or Star Sports 1 IN (ID 267)
-playDaddyLiveChannel('51');
-</script>
 ```
-
-### 2. Port Binding & Environment
-- Server port binds to `process.env.PORT || 8080`.
-- Docker build entry point: `node server.cjs`.
