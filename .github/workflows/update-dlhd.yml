@@ -2,7 +2,9 @@ name: Auto Update DLHD M3U Playlist
 
 on:
   schedule:
-    # Runs every 45 minutes
+    # Runs daily at 11:52 PM IST (18:22 UTC)
+    - cron: '22 18 * * *'
+    # Also runs recurring every 45 minutes
     - cron: '*/45 * * * *'
   workflow_dispatch: # Allows manual trigger anytime
 
@@ -23,13 +25,13 @@ jobs:
           node-version: '22'
 
       - name: Run DaddyLive Extractor
-        run: node server.cjs & sleep 5
+        run: node generate_dlhd_m3u.cjs
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "Auto-update dlhd.m3u playlist"
+          git diff-index --quiet HEAD || git commit -m "Auto-update dlhd.m3u playlist at 11:52 PM IST"
           git pull --rebase origin main
           git push
